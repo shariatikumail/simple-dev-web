@@ -9,7 +9,7 @@ const App = () => {
       <div>
          <div className="main">
             <div className="head_container">
-              <h1>DevHub</h1>
+              <h1 className="title">DevHub</h1>
               <div className="search_bar">
                 <i className="fas fa-search"></i>
                 <input type="search" id="searchBar" placeholder='Search Documentation, APIs,Tools...' />
