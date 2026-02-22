@@ -3,13 +3,68 @@
    padding: 0;
 }
 
+body{
+   width: auto;
+   height: auto;
+   background: #000;
+}
+
+.options{
+   padding: 15px;
+   background-color: transparent;
+   color: white;
+   border-radius: 10px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: 15px;
+}
+
 .head_container{
    display: flex;
    gap: 500px;
-   background-color: rgb(51, 51, 51);
-   padding: 25px;
+   background-color: rgb(44, 42, 42);
+   padding: 20px;
+   width: auto;
+   border-bottom: 0.2px solid rgb(99, 91, 91);
 }
 
+.op2{
+   padding: 3px;
+   background-color: transparent;
+   color: rgb(183, 183, 183);
+   border-radius: 10px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: 15px;
+   width: 70px;
+   height: 40px;
+   border: 0;
+   margin-top: 8px;
+}
+
+.options{
+   border: 0;
+   height: 40px;
+   padding: 8px;
+   margin-top: 8px;
+   color: rgb(183, 183, 183);
+}
+
+.options:hover{
+   background-color: rgb(119, 113, 113);
+   cursor: pointer;
+   color: white;
+}
+
+.AI_assistant_btn{
+   background-color: royalblue;
+   padding: 10px;
+   font-size: 15px;
+   font-weight: 1000;
+   border-radius: 10px;
+   color: white;
+}
+#aiBtn{
+   color: white;
+}
 .search_bar{
    display: flex;
    gap: 20px;
@@ -21,6 +76,8 @@
    border-radius: 15px;
    height: 25px;
    border: 0.1px solid rgb(70, 68, 68);
+   margin-top: 5px;
+   margin-left: 100px;
 }
 
 
@@ -29,8 +86,6 @@ input::placeholder{
    font-size: 18px;
    padding-top: 20px;
 }
-
-
 
 .title{
    color: white;
@@ -45,10 +100,26 @@ i{
    margin-top: 5px;
 }
 
+h1{
+   margin-top: 10px;
+   margin-left: 15px;
+}
+
+.op2:hover{
+   background-color: rgb(119, 113, 113);
+   cursor: pointer;
+   color: rgb(255, 255, 255);
+}
+
 input{
    background-color: transparent;
    border: 0;
-   width: 400px;
+   width: 500px;
    color: white;
+}
+
+.buttons_options{
+   display: flex;
+   gap: 20px;
 }
 
