@@ -20,6 +20,16 @@ const App = () => {
                 <button className="AI_assistant_btn"><i id='aiBtn' className="fa-solid fa-microchip"></i> AI Assistant</button>
               </div>
             </div>
+            <div className="down_container">
+                <span>🚀Built for developers, by developers</span>
+                <div className="text">
+                  <h1>Build faster with <h1 className="modern_tools_h1">Modern tools</h1></h1>
+                </div>
+              <div className="btns">
+                <button className="get_started_btn">Get Started Free</button>
+                <button className="btn2">View Documentation </button>
+              </div>
+            </div>
          </div>
       </div>
     </>
