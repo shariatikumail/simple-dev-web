@@ -21,7 +21,14 @@ const App = () => {
               </div>
             </div>
             <div className="down_container">
-              <span></span>
+                <span>🚀Built for developers, by developers</span>
+                <div className="text">
+                  <h1>Build faster with <h1 className="modern_tools_h1">Modern tools</h1></h1>
+                </div>
+              <div className="btns">
+                <button className="get_started_btn">Get Started Free</button>
+                <button className="btn2">View Documentation </button>
+              </div>
             </div>
          </div>
       </div>
