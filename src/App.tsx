@@ -1,7 +1,9 @@
 import './App.css'
+import Cards from './components/cards'
+import React from 'react'
 
-const App = () => {
-
+const App: React.FC = () => {
+  
   return (
     <>
       <div>
@@ -32,6 +34,8 @@ const App = () => {
             </div>
          </div>
       </div>
+      
+      <Cards />
     </>
   )
 }
