@@ -70,6 +70,10 @@ body{
    margin-top: 5px;
    margin-left: 50px;
 }
+.AI_assistant_btn:hover{
+   border: 0.5px solid rgb(255, 255, 255);
+}
+
 #aiBtn{
    color: white;
 }
