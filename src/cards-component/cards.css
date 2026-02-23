@@ -70,7 +70,7 @@ h2{
    display: flex;
    gap: 20px;
    width: 1300px;
-   margin-left: -480px;
+   margin-left: 310px;
    margin-top: 80px;
    height: 200px;
 }
@@ -78,19 +78,23 @@ h2{
 .card1:hover{
    background-color: #3f3f46;
    transition: 0.8s;
+   box-shadow: 10px 15px 10px rgb(76, 76, 76);
 }
 
 .card2:hover{
    background-color: #3f3f46;
    transition: 0.8s;
+   box-shadow: 10px 15px 10px rgb(76, 76, 76);
 }
 
 .card3:hover{
    background-color: #3f3f46;
    transition: 0.8s;
+   box-shadow: 10px 15px 10px rgb(76, 76, 76);
 }
 
 .card4:hover{
    background-color: #3f3f46;
    transition: 0.8s;
+   box-shadow: 10px 15px 10px rgb(76, 76, 76);
 }
