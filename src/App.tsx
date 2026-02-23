@@ -7,9 +7,6 @@ import { useNavigate } from "react-router-dom";
 const App: React.FC = () => {
   
   const navigate = useNavigate();
-  const docsBtn = () => {
-    navigate('/docs');
-  }
 
   return (
     <>
@@ -22,7 +19,7 @@ const App: React.FC = () => {
                 <input type="search" id="searchBar" placeholder='Search Documentation, APIs,Tools...' />
               </div>
               <div className="buttons_options">
-                <button onClick={docsBtn} className="op2" >Docs</button>
+                <button onClick={() => navigate('/docs')} className="op2" >Docs</button>
                 <button className="op2" >APIs</button>
                 <button className="op2">Tools</button>
                 <button className="options">Community</button>
