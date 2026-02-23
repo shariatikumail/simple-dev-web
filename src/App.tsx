@@ -30,7 +30,7 @@ const App: React.FC = () => {
                 <div className="text">
                   <h1>
                     Build faster with{" "}
-                    <span className="modern_tools_h1">Modern tools</span>
+                    <h1 className="modern_tools_h1">Modern tools</h1>
                   </h1>
                 </div>
               <div className="btns">
