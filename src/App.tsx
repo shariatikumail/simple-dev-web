@@ -11,7 +11,7 @@ const App: React.FC = () => {
             <div className="head_container">
               <h3 className="title">|DevHub|</h3>
               <div className="search_bar">
-                <i className="fas fa-search"></i>
+                <i id='icon' className="fas fa-search"></i>
                 <input type="search" id="searchBar" placeholder='Search Documentation, APIs,Tools...' />
               </div>
               <div className="buttons_options">
@@ -31,11 +31,12 @@ const App: React.FC = () => {
                 <button className="get_started_btn">Get Started Free</button>
                 <button className="btn2">View Documentation </button>
               </div>
+              <div className="cards_container">
+                <Cards />
+              </div>
             </div>
          </div>
       </div>
-      
-      <Cards />
     </>
   )
 }

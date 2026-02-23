@@ -106,6 +106,21 @@ h1{
    margin-top: 8px;
 }
 
+#aiBtn{
+   margin-top: -5px;
+   margin-left: -2px;
+   padding: 0px;
+   border: 0;
+}
+
+#icon{
+   margin-left: 10px;
+   margin-top: -5px;
+   border: 0;
+   margin-left: -5px;
+   padding: 5px;
+}
+
 .options{
    border: 0;
    border-radius: 8px;
@@ -144,9 +159,10 @@ h1{
    font-family: sans-serif;
    margin-top: 5px;
    margin-left: 50px;
+   cursor: pointer;
 }
 .AI_assistant_btn:hover{
-   border: 0.5px solid rgb(255, 255, 255);
+   background-color: rgb(37, 37, 121);
 }
 
 #aiBtn{

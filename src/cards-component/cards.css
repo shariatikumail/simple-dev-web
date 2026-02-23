@@ -1,0 +1,96 @@
+.card1{
+   background-color: #27272a;
+   padding: 25px;
+   border-radius: 15px;
+   border: #3f3f46 solid;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   cursor: pointer;
+}
+h5{
+   color: rgb(138, 138, 138);
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;
+}
+
+i{
+   margin-left: 10px;
+   border: 1px solid white;
+   padding: 10px;
+}
+
+h2{
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.card2{
+   background-color: #27272a;
+   padding: 25px;
+   border-radius: 15px;
+   border: #3f3f46 solid;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   cursor: pointer;
+}
+.card3{
+   background-color: #27272a;
+   padding: 25px;
+   border-radius: 15px;
+   border: #3f3f46 solid;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   width: 300px;
+   cursor: pointer;
+}
+.card4{
+   background-color: #27272a;
+   padding: 25px;
+   border-radius: 15px;
+   border: #3f3f46 solid;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   cursor: pointer;
+}
+
+#bg{
+   padding: 15px;
+   border-radius: 10px;
+   margin-left: -5px;
+   color: white;
+   background-color: rgb(67, 54, 255);
+   border: 0;
+}
+
+.cards{
+   display: flex;
+   gap: 20px;
+   width: 1300px;
+   margin-left: -480px;
+   margin-top: 80px;
+   height: 200px;
+}
+
+.card1:hover{
+   background-color: #3f3f46;
+   transition: 0.8s;
+}
+
+.card2:hover{
+   background-color: #3f3f46;
+   transition: 0.8s;
+}
+
+.card3:hover{
+   background-color: #3f3f46;
+   transition: 0.8s;
+}
+
+.card4:hover{
+   background-color: #3f3f46;
+   transition: 0.8s;
+}
