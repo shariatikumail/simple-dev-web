@@ -1,9 +1,16 @@
 import './App.css'
 import Cards from './cards-component/cards'
 import React from 'react'
+import Docs from './docs-folder/Docs'
+import { useNavigate } from "react-router-dom";
 
 const App: React.FC = () => {
   
+  const navigate = useNavigate();
+  const docsBtn = () => {
+    navigate('/docs');
+  }
+
   return (
     <>
       <div>
@@ -15,7 +22,7 @@ const App: React.FC = () => {
                 <input type="search" id="searchBar" placeholder='Search Documentation, APIs,Tools...' />
               </div>
               <div className="buttons_options">
-                <button className="op2" >Docs</button>
+                <button onClick={docsBtn} className="op2" >Docs</button>
                 <button className="op2" >APIs</button>
                 <button className="op2">Tools</button>
                 <button className="options">Community</button>
@@ -31,12 +38,11 @@ const App: React.FC = () => {
                 <button className="get_started_btn">Get Started Free</button>
                 <button className="btn2">View Documentation </button>
               </div>
-              <div className="cards_container">
-                <Cards />
-              </div>
             </div>
          </div>
       </div>
+      <Cards />
+      <Docs />
     </>
   )
 }
