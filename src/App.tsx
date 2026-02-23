@@ -1,7 +1,6 @@
 import './App.css'
 import Cards from './cards-component/cards'
 import React from 'react'
-import Docs from './docs-folder/Docs'
 import { useNavigate } from "react-router-dom";
 
 const App: React.FC = () => {
@@ -39,7 +38,6 @@ const App: React.FC = () => {
          </div>
       </div>
       <Cards />
-      <Docs />
     </>
   )
 }
