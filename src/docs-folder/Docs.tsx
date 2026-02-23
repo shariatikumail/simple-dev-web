@@ -1,4 +1,5 @@
-import './Docs.css';
+import './docs.css';
+import React from 'react';
 
 const Docs: React.FC = () => {
    return (
