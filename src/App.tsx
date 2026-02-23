@@ -1,10 +1,11 @@
 import './App.css'
 import Cards from './cards-component/cards'
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 
 const App: React.FC = () => {
   
-  
+  const navigate = useNavigate();
 
   return (
     <>
@@ -17,7 +18,7 @@ const App: React.FC = () => {
                 <input type="search" id="searchBar" placeholder='Search Documentation, APIs,Tools...' />
               </div>
               <div className="buttons_options">
-                <button className="op2" >Docs</button>
+                <button onClick={() => navigate('/Docs')} className="op2" >Docs</button>
                 <button className="op2" >APIs</button>
                 <button className="op2">Tools</button>
                 <button className="options">Community</button>
@@ -27,7 +28,10 @@ const App: React.FC = () => {
             <div className="down_container">
                 <span>🚀Built for developers, by developers</span>
                 <div className="text">
-                  <h1>Build faster with <h1 className="modern_tools_h1">Modern tools</h1></h1>
+                  <h1>
+                    Build faster with{" "}
+                    <span className="modern_tools_h1">Modern tools</span>
+                  </h1>
                 </div>
               <div className="btns">
                 <button className="get_started_btn">Get Started Free</button>
@@ -41,4 +45,4 @@ const App: React.FC = () => {
   )
 }
 
-export default App
+export default App;
