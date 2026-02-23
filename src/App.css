@@ -134,6 +134,7 @@ h1{
    background-color: rgb(119, 113, 113);
    cursor: pointer;
    color: white;
+   transition: 1s;
 }
 
 .down_container{
@@ -207,8 +208,9 @@ h3{
 
 .op2:hover{
    background-color: rgb(119, 113, 113);
-   cursor: pointer;
    color: rgb(255, 255, 255);
+   transition: 1s;
+   cursor: pointer;
 }
 
 input{
