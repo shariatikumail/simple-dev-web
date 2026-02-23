@@ -28,8 +28,10 @@ const App: React.FC = () => {
             <div className="down_container">
                 <span>🚀Built for developers, by developers</span>
                 <div className="text">
-                  <h1>Build faster with</h1>
-                  <h1 className="modern_tools_h1">Modern tools</h1>
+                  <h1>
+                    Build faster with{" "}
+                    <span className="modern_tools_h1">Modern tools</span>
+                  </h1>
                 </div>
               <div className="btns">
                 <button className="get_started_btn">Get Started Free</button>
