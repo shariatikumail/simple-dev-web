@@ -1,5 +1,5 @@
 import './App.css'
-import Cards from './components/cards'
+import Cards from './cards-component/cards'
 import React from 'react'
 
 const App: React.FC = () => {
