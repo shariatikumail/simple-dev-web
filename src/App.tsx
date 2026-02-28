@@ -1,7 +1,7 @@
 import './App.css'
 import Cards from './cards-component/cards'
 import React from 'react'
-import { BrowserRouter as Router, Route, Routes, useNavigate } from 'react-router-dom'
+import {useNavigate } from 'react-router-dom'
 
 
 const App: React.FC = () => {
