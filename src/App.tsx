@@ -19,7 +19,6 @@ const App: React.FC = () => {
                 <input type="search" id="searchBar" placeholder='Search Documentation, APIs,Tools...' />
               </div>
               <div className="buttons_options">
-                <button onClick={() => navigate('/tools')} className="op2">Tools</button>
                 <button onClick={() => navigate('/login')} className="options">Login</button>
                 <button onClick={() => navigate('/ai-assistant')} className="AI_assistant_btn"><i id='aiBtn' className="fa-solid fa-microchip"></i> AI Assistant</button>
               </div>
