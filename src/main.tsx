@@ -5,6 +5,7 @@ import './index.css'
 import App from './App.tsx'
 import Login from './login/login.tsx'
 import AiAssistant from './ai-assistant/ai_assistant.tsx'
+import './login/login.ts'
 
 
 createRoot(document.getElementById('root')!).render(
